@@ -12,6 +12,9 @@ eq_CreateLabel(df)
 \value{
 data.frame - earthquake data with an addditional event description variable in a html format.
 }
+\description{
+It should be used for genereting more informative labels.
+}
 \examples{
 
 df = eq_ReadQuake()

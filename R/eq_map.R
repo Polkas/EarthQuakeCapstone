@@ -45,7 +45,7 @@ eq_Map <- function(df, label="DATE"){
 
 #' @title Supporting function for \code{eq_Map}.
 #
-#' @desctription It should be used for genereting more informative labels.
+#' @description It should be used for genereting more informative labels.
 #'
 #' @param df data.frame - cleaned earthquake data
 #'
