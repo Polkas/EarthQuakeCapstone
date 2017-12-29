@@ -53,6 +53,9 @@ often aesthetics, used to set an aesthetic to a fixed value, like
 \code{color = "red"} or \code{size = 3}. They may also be parameters
 to the paired geom/stat.}
 }
+\description{
+new geom build under grid textGrob and segmentsGrob
+}
 \examples{
 
  df = eq_ReadQuake()

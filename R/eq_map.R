@@ -1,6 +1,8 @@
 
 #' @title Function for plotting a leaflet map of earthquake occurences.
 #'
+#' @description Function for plotting a leaflet map of earthquake occurences.
+#'
 #' @param df data.frame - cleaned earthquake data
 #' @param label character - Column in the tbl_df object to be used for annotation.
 #'
@@ -41,8 +43,10 @@ eq_Map <- function(df, label="DATE"){
 }
 
 
-#' @title Supporting function for \code{eq_Map}. It should be used for genereting more informative labels.
+#' @title Supporting function for \code{eq_Map}.
 #
+#' @desctription It should be used for genereting more informative labels.
+#'
 #' @param df data.frame - cleaned earthquake data
 #'
 #' @return data.frame - earthquake data with an addditional event description variable in a html format.

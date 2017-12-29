@@ -1,6 +1,8 @@
 #' @title Checks if the file exists and then load it as data.frame.
 #'
-#' @param filename character - a path to the file or the file name. Default value providing pre-loaded database.
+#' @description  Default arg value provides pre-loaded database.
+#'
+#' @param filename character - a path to the file or the file name.
 #'
 #' @return data in a data.frame format
 #'

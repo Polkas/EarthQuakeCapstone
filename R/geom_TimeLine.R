@@ -1,6 +1,8 @@
 
 #' @title Additional geom for plotting Time Line of earthquake occurences.
 #'
+#' @description new geom build under grid pointsGrob and linesGrob
+#'
 #' @seealso \code{\link{eq_ReadQuake}} \code{\link{eq_ReadQuake}} \code{\link{geom_TimeLineLable}}
 #'
 #' @inheritParams ggplot2::geom_bar

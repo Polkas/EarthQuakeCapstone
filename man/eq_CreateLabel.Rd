@@ -2,7 +2,7 @@
 % Please edit documentation in R/eq_map.R
 \name{eq_CreateLabel}
 \alias{eq_CreateLabel}
-\title{Supporting function for \code{eq_Map}. It should be used for genereting more informative labels.}
+\title{Supporting function for \code{eq_Map}.}
 \usage{
 eq_CreateLabel(df)
 }

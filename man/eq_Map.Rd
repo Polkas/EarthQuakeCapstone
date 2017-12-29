@@ -14,6 +14,9 @@ eq_Map(df, label = "DATE")
 \value{
 leaflet map - interactive map of significant earthquakes
 }
+\description{
+Function for plotting a leaflet map of earthquake occurences.
+}
 \examples{
 
 df = eq_ReadQuake()

@@ -10,10 +10,13 @@ National Geophysical Data Center / World Data Service NGDC/WDS: Significant Eart
 eq_ReadQuake(filename = "")
 }
 \arguments{
-\item{filename}{character - a path to the file or the file name. Default value providing pre-loaded database.}
+\item{filename}{character - a path to the file or the file name.}
 }
 \value{
 data in a data.frame format
+}
+\description{
+Default arg value provides pre-loaded database.
 }
 \examples{
 
